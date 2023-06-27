@@ -6,7 +6,9 @@ import {puppyList} from './data.js'
 // import viteLogo from '/vite.svg'
 import './App.css'
 console.log(puppyList);
-<div></div>
+<div>
+  
+</div>
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -35,4 +37,4 @@ console.log(puppyList);
 //     </>
 //   )
 // }
-// export default App
+export default App
