@@ -1,7 +1,6 @@
 import {puppyList} from './data.js'
 import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+
 import './App.css'
 
 
@@ -20,13 +19,13 @@ function App() {
         })
       }
        { featPupId && (
-        <div>
-        <h2>{featuredPup.name}</h2>
-        <ul>
-          <li>Age: {featuredPup.age}</li>
-          <li>Email: {featuredPup.email}</li>
-        </ul>
-      </div>
+        <div className='featuredPup'>
+          <h2>{featuredPup.name}</h2>
+          <ul>
+            <li>Age: {featuredPup.age}</li>
+            <li>Email: {featuredPup.email}</li>
+          </ul>
+        </div>
        )}
     </div>
   )
