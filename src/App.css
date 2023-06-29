@@ -48,3 +48,13 @@ li {
   display: flex;
   color:aqua;
 }
+body {
+  display: flex;
+  flex-direction: column;
+}
+div {
+  color:lime;
+}
+h1 {
+  color:crimson;
+}
